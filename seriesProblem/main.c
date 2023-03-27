@@ -18,3 +18,12 @@ int main()
     printf("%.2f ",sum);
     return 0;
 }
+
+
+
+
+
+
+
+
+

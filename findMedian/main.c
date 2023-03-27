@@ -6,7 +6,7 @@ float findMedian(float nums[], int n);
 int main()
 {
     int n;
-    for(int i=0; ;i++){
+    for(int i=0;;i++){
         printf("Enter the size of the array : ");
         scanf("%d",&n);
         float numbers[n];
@@ -21,13 +21,10 @@ int main()
 }
 
 float findMedian(float nums[], int n){
-
     if((n%2)==0){
         return (nums[(n/2)-1] + nums[((n/2)+1)-1])/2;
     }
     else{
         return nums[(n+1)/2-1];
     }
-
-
 }

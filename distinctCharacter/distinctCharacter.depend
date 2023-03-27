@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1679958839 source:e:\core programming\learn c\assignmentfinalterm-cse121-id(230121005)\distinctcharacter\main.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+
