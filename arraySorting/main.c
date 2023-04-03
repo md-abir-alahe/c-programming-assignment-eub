@@ -3,22 +3,20 @@
 
 int main()
 {
-    int a=5, b=0, c=2,tem;
-    if(a>b){
-        tem = a;
-        a=b;
-        b=tem;
+
+    int arr[5]={9,2,3,40,5};
+    for(int i=0;i<5;i++){
+        for(int j=i+1;j<5;j++){
+            if(arr[i]>arr[j]){
+                int temp = arr[i];
+                arr[i]=arr[j];
+                arr[j] = temp;
+            }
+        }
     }
-    else if(a>c){
-        tem = a;
-        a=c;
-        c=tem;
+    for(int i=0;i<5;i++){
+        printf("%d ",arr[i]);
     }
-    if(b>c){
-        tem = b;
-        b =c ;
-        c= tem;
-    }
-    printf("%d %d %d",a,b,c);
+
     return 0;
 }
